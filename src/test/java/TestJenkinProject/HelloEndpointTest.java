@@ -31,7 +31,7 @@ public class HelloEndpointTest {
     @Test
     public void testHello() throws Exception {
         when().get("/").then()
-                .body(is("Hello World!"));
+                .body(is("Hello World! GONZALO THEONSE"));
     }
 
     @Test
